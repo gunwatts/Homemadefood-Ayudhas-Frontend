@@ -1,0 +1,36 @@
+{
+  "name": "homemadefood-ayudhas-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "fetch-catalogue": "node scripts/fetch-catalogue.mjs",
+    "build": "node scripts/fetch-catalogue.mjs && next build",
+    "build:offline": "next build",
+    "serve": "python -m http.server 3000 --bind 127.0.0.1 --directory out",
+    "lint": "eslint",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:e2e": "node e2e/smoke.mjs"
+  },
+  "dependencies": {
+    "next": "15.5.27",
+    "qrcode": "^1.5.4",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.3.7",
+    "@tailwindcss/postcss": "^4.1.0",
+    "@types/node": "^22.0.0",
+    "@types/qrcode": "^1.5.5",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "eslint": "^9.39.5",
+    "eslint-config-next": "^15.5.27",
+    "playwright-core": "^1.49.1",
+    "tailwindcss": "^4.1.0",
+    "typescript": "^5.9.0",
+    "vitest": "^5.0.3"
+  }
+}

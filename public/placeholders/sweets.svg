@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Illustration of laddus on a plate">
+  <rect width="800" height="600" fill="#F8E9CF"/>
+  <circle cx="140" cy="110" r="60" fill="#F1D49A" opacity=".7"/>
+  <ellipse cx="400" cy="440" rx="290" ry="70" fill="#B9B4A8"/>
+  <ellipse cx="400" cy="425" rx="280" ry="62" fill="#DAD6CC"/>
+  <ellipse cx="400" cy="420" rx="230" ry="44" fill="#ECE9E2"/>
+  <g>
+    <circle cx="300" cy="370" r="62" fill="#D97706"/>
+    <circle cx="420" cy="380" r="66" fill="#E08A12"/>
+    <circle cx="530" cy="372" r="58" fill="#C96A05"/>
+    <circle cx="360" cy="300" r="60" fill="#E59A1E"/>
+    <circle cx="475" cy="300" r="58" fill="#D47F0B"/>
+  </g>
+  <g fill="#FDE7B0" opacity=".9">
+    <circle cx="280" cy="350" r="5"/><circle cx="320" cy="385" r="4"/><circle cx="410" cy="360" r="5"/>
+    <circle cx="440" cy="400" r="4"/><circle cx="520" cy="350" r="5"/><circle cx="350" cy="285" r="4"/>
+    <circle cx="380" cy="320" r="5"/><circle cx="470" cy="280" r="5"/><circle cx="490" cy="320" r="4"/>
+    <circle cx="550" cy="390" r="4"/><circle cx="300" cy="400" r="4"/>
+  </g>
+  <path d="M640 180c0-30 40-30 40 0 0 20-40 50-40 50s-40-30-40-50c0-30 40-30 40 0z" fill="#B91C1C" opacity=".35"/>
+</svg>

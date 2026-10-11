@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Illustration of a cooking pot on a stove">
+  <rect width="800" height="600" fill="#F7E4C6"/>
+  <rect x="0" y="430" width="800" height="170" fill="#C89B67"/>
+  <rect x="230" y="400" width="340" height="40" rx="8" fill="#5B3A1E"/>
+  <path d="M250 260h300v80c0 50-40 80-150 80s-150-30-150-80z" fill="#8A8F98"/>
+  <ellipse cx="400" cy="260" rx="150" ry="28" fill="#6B7079"/>
+  <ellipse cx="400" cy="258" rx="130" ry="20" fill="#D97706"/>
+  <path d="M370 240c-10-30 20-40 10-70M420 236c-10-30 20-40 10-70M470 240c-10-30 20-40 10-70" stroke="#fff" stroke-width="8" stroke-linecap="round" fill="none" opacity=".6"/>
+  <path d="M520 220l120-120" stroke="#7A4A2A" stroke-width="14" stroke-linecap="round"/>
+  <g fill="#F97316" opacity=".85"><path d="M330 440c10-30 30-30 30 0z"/><path d="M390 440c10-35 35-35 35 0z"/><path d="M450 440c10-30 30-30 30 0z"/></g>
+</svg>

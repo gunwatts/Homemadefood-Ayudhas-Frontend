@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Illustration of a pickle jar">
+  <rect width="800" height="600" fill="#F6E7C8"/>
+  <circle cx="640" cy="120" r="70" fill="#EFCF8A" opacity=".7"/>
+  <ellipse cx="400" cy="520" rx="230" ry="26" fill="#E3CFA6"/>
+  <rect x="300" y="150" width="200" height="40" rx="10" fill="#8C2F23"/>
+  <rect x="290" y="185" width="220" height="22" rx="8" fill="#6F2219"/>
+  <path d="M285 210h230c14 0 25 11 25 25v245c0 22-18 40-40 40H300c-22 0-40-18-40-40V235c0-14 11-25 25-25z" fill="#C2410C" opacity=".92"/>
+  <path d="M285 210h230c14 0 25 11 25 25v40H260v-40c0-14 11-25 25-25z" fill="#9A3412"/>
+  <g fill="#F59E0B">
+    <path d="M320 330c20-30 60-30 70 0s-30 50-50 45-30-20-20-45z"/>
+    <path d="M420 300c25-20 60-5 60 25s-35 40-55 30-25-35-5-55z"/>
+    <path d="M360 420c25-25 65-15 65 15s-40 45-60 35-25-30-5-50z"/>
+    <path d="M450 410c15-20 45-10 45 12s-25 35-40 28-15-25-5-40z"/>
+  </g>
+  <rect x="330" y="380" width="140" height="56" rx="8" fill="#FBF6EC" opacity=".95"/>
+  <text x="400" y="417" text-anchor="middle" font-family="Georgia, serif" font-size="24" fill="#7C2D12">Pickle</text>
+  <path d="M300 240c-10 60-10 160 0 230" stroke="#fff" stroke-width="10" stroke-linecap="round" opacity=".25" fill="none"/>
+</svg>

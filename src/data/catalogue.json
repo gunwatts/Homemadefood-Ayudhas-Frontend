@@ -1,0 +1,384 @@
+{
+  "generated_at": "2026-10-11T14:15:40.559943Z",
+  "content": {
+    "business_name": {
+      "title": "",
+      "body": "Ayudhas",
+      "image_url": null
+    },
+    "tagline": {
+      "title": "",
+      "body": "Home-made sweets & pickles from our village kitchen",
+      "image_url": null
+    },
+    "owner_name": {
+      "title": "",
+      "body": "",
+      "image_url": null
+    },
+    "whatsapp_number": {
+      "title": "",
+      "body": "",
+      "image_url": null
+    },
+    "phone_number": {
+      "title": "",
+      "body": "",
+      "image_url": null
+    },
+    "contact_email": {
+      "title": "",
+      "body": "",
+      "image_url": null
+    },
+    "location": {
+      "title": "",
+      "body": "",
+      "image_url": null
+    },
+    "delivery_note": {
+      "title": "",
+      "body": "We can arrange Delhivery courier to many PIN codes in India, subject to serviceability. Pickup can be arranged locally by agreement.",
+      "image_url": null
+    },
+    "response_time": {
+      "title": "",
+      "body": "We usually reply on WhatsApp within 1 business day.",
+      "image_url": null
+    },
+    "fssai_number": {
+      "title": "",
+      "body": "",
+      "image_url": null
+    },
+    "hero": {
+      "title": "Made by hand, the way it's always been made",
+      "body": "Traditional sweets and pickles prepared in small batches in our home kitchen. Browse the catalogue, add what you like, and we'll confirm everything with you on WhatsApp.",
+      "image_url": null
+    },
+    "story_short": {
+      "title": "From our kitchen to yours",
+      "body": "Every jar and box is prepared at home in small batches. Read our story to meet the maker, see the village and watch how things are made.",
+      "image_url": null
+    },
+    "announcement": {
+      "title": "",
+      "body": "",
+      "image_url": null
+    },
+    "maker_profile": {
+      "title": "Meet the maker",
+      "body": "Add a few lines about who makes the products, how long they have been cooking and what the recipes mean to the family.",
+      "image_url": null
+    },
+    "village": {
+      "title": "Our village",
+      "body": "Describe the village and region where the products are made.",
+      "image_url": null
+    },
+    "process": {
+      "title": "How we make it",
+      "body": "Describe the preparation process in your own words: cleaning, drying, roasting, mixing, resting and packing.",
+      "image_url": null
+    },
+    "sourcing": {
+      "title": "Ingredients & sourcing",
+      "body": "Describe where the main ingredients come from. Avoid words like 'organic' or 'chemical-free' unless you can show evidence or certification.",
+      "image_url": null
+    },
+    "disclaimer": {
+      "title": "Terms & disclaimer",
+      "body": "This website is a product catalogue. It does not take payments and does not confirm orders.\n\n- Submitting an order request or enquiry is not a purchase and does not guarantee price, availability or delivery.\n- The owner will contact you on WhatsApp to confirm availability, the final delivery arrangement and any delivery charge before anything is agreed.\n- Prices shown are product-only prices. Courier (Delhivery) charges, if any, are extra and are quoted by the owner after checking your PIN code, parcel weight and current courier rates.\n- Pickup from the maker or handover through a friend/known person is only possible where both parties agree; it is arranged directly between you and the owner and is not a service provided by this website.\n- Product details, ingredients and storage information are supplied by the owner. If you have an allergy or dietary requirement, please confirm with the owner before ordering.\n",
+      "image_url": null
+    },
+    "privacy_notice": {
+      "title": "Privacy notice",
+      "body": "We collect only what we need to respond to your request.\n\n## What we collect\n- Your WhatsApp/mobile number.\n- Your delivery PIN code and receiving preference (for order requests).\n- The products and quantities you selected, and any optional note you add.\n- For callback requests: your number, an optional name, preferred contact time and message.\n\nWe do not ask for your full address, date of birth, ID documents or payment details on this website, and we do not use advertising or analytics trackers.\n\n## Why we collect it\nOnly to contact you on WhatsApp or by phone about your request: to confirm availability, delivery options, any delivery charge, payment and handover. We do not sell or share your number for marketing.\n\n## Who can see it\nOnly the business owner (and our website maintainer when needed to fix a technical problem) through a password-protected admin area. If email notifications are enabled, a copy of the request is emailed to the owner.\n\n## How long we keep it\nRequests are reviewed and deleted after about 6 months unless we need them for an ongoing order or a legal/business record.\n\n## Your choices\nYou can ask us to correct or delete your details at any time by messaging us on WhatsApp or using the contact details on this site. Please mention your request reference if you have it.\n",
+      "image_url": null
+    },
+    "privacy_notice_version": {
+      "title": "",
+      "body": "2026-10-01",
+      "image_url": null
+    },
+    "orders_enabled": {
+      "title": "",
+      "body": "true",
+      "image_url": null
+    },
+    "show_preview_notice": {
+      "title": "",
+      "body": "true",
+      "image_url": null
+    }
+  },
+  "categories": [
+    {
+      "id": "fa83c262-f582-4a9a-8273-9d7e5e7ceac4",
+      "name": "Pickles",
+      "slug": "pickles",
+      "description": "Andhra-style pickles prepared in small batches."
+    },
+    {
+      "id": "8351bda9-fe1e-4ec4-ae8b-78902301e912",
+      "name": "Sweets",
+      "slug": "sweets",
+      "description": "Traditional festival sweets made at home."
+    },
+    {
+      "id": "a24e4d2b-55e7-4556-ba4e-4c1a75213d84",
+      "name": "Podis & Snacks",
+      "slug": "podis-snacks",
+      "description": "Spice powders and savoury snacks."
+    }
+  ],
+  "products": [
+    {
+      "id": "0f3e446a-8434-46a2-9604-4ba7c17cf774",
+      "slug": "avakaya-mango-pickle",
+      "name": "Avakaya Mango Pickle",
+      "short_description": "Classic cut-mango pickle with mustard and red chilli.",
+      "description": "Raw mangoes cut with the stone, mixed with freshly ground mustard, red chilli and salt, then rested in oil. Prepared once a year during mango season.",
+      "category_slug": "pickles",
+      "category_name": "Pickles",
+      "ingredients_text": "Raw mango, red chilli powder, mustard powder, salt, gingelly (sesame) oil, fenugreek seeds, garlic.",
+      "allergen_text": "Contains mustard and sesame.",
+      "storage_text": "Store in a cool, dry place. Always use a clean, dry spoon. Keep the mango pieces covered with oil.",
+      "shelf_life_text": "Best used within 6 months of packing.",
+      "preparation_text": null,
+      "price_note": "Product-only price per pack. Delivery charges, if any, are extra and confirmed on WhatsApp.",
+      "featured": true,
+      "variants": [
+        {
+          "id": "e9dd6e39-b2b1-4bca-9b7c-cd71c3719e7d",
+          "label": "250 g",
+          "price_paise": 18000
+        },
+        {
+          "id": "a90f56f4-6bfb-4a03-8c8c-4235aae4684d",
+          "label": "500 g",
+          "price_paise": 33000
+        },
+        {
+          "id": "16cd3192-facc-4483-98e5-2c63bb71e33c",
+          "label": "1 kg",
+          "price_paise": 62000
+        }
+      ],
+      "images": [],
+      "updated_at": "2026-10-11T14:14:32.548313Z"
+    },
+    {
+      "id": "28855ab6-8917-4409-a18a-21a7bdc2e989",
+      "slug": "gongura-pickle",
+      "name": "Gongura Pickle",
+      "short_description": "Tangy sorrel-leaf pickle, a Telugu favourite.",
+      "description": "Gongura (sorrel) leaves cleaned, sun-dried and cooked with red chilli, garlic and tempering.",
+      "category_slug": "pickles",
+      "category_name": "Pickles",
+      "ingredients_text": "Gongura leaves, red chilli, garlic, salt, gingelly (sesame) oil, mustard seeds, fenugreek.",
+      "allergen_text": "Contains mustard and sesame.",
+      "storage_text": "Store in a cool, dry place. Use a clean, dry spoon.",
+      "shelf_life_text": "Best used within 3 months of packing.",
+      "preparation_text": null,
+      "price_note": "Product-only price per pack. Delivery charges, if any, are extra and confirmed on WhatsApp.",
+      "featured": true,
+      "variants": [
+        {
+          "id": "a3ac2e3e-2aa4-4a5a-bfd3-c40db31f5a8d",
+          "label": "250 g",
+          "price_paise": 16000
+        },
+        {
+          "id": "7052940c-f7f2-4c0d-a67d-659c51bc7363",
+          "label": "500 g",
+          "price_paise": 30000
+        }
+      ],
+      "images": [],
+      "updated_at": "2026-10-11T14:14:32.550205Z"
+    },
+    {
+      "id": "d6078011-b44d-49d1-b5db-f829b95c779c",
+      "slug": "tomato-pickle",
+      "name": "Tomato Pickle",
+      "short_description": "Slow-cooked tomato pickle with tamarind and garlic.",
+      "description": "Ripe tomatoes cooked down with tamarind, spices and a garlic tempering.",
+      "category_slug": "pickles",
+      "category_name": "Pickles",
+      "ingredients_text": "Tomato, tamarind, red chilli, salt, garlic, groundnut oil, mustard seeds, fenugreek.",
+      "allergen_text": "Contains mustard and groundnut (peanut).",
+      "storage_text": "Refrigerate after opening. Use a clean, dry spoon.",
+      "shelf_life_text": "Best used within 2 months of packing.",
+      "preparation_text": null,
+      "price_note": "Product-only price per pack. Delivery charges, if any, are extra and confirmed on WhatsApp.",
+      "featured": false,
+      "variants": [
+        {
+          "id": "039a950f-e1f7-4831-ab5b-02b927cc6acc",
+          "label": "250 g",
+          "price_paise": 14000
+        },
+        {
+          "id": "94ef00e4-e80e-4521-aec3-c97976237de5",
+          "label": "500 g",
+          "price_paise": 26000
+        }
+      ],
+      "images": [],
+      "updated_at": "2026-10-11T14:14:32.551202Z"
+    },
+    {
+      "id": "8d86a4c3-d495-47bb-9837-7ad20d9f40a0",
+      "slug": "sunnundalu",
+      "name": "Sunnundalu",
+      "short_description": "Roasted urad dal and jaggery laddus with ghee.",
+      "description": "Urad dal roasted slowly, ground and bound with jaggery and ghee into hand-rolled laddus.",
+      "category_slug": "sweets",
+      "category_name": "Sweets",
+      "ingredients_text": "Urad dal, jaggery, ghee, cardamom.",
+      "allergen_text": "Contains milk (ghee).",
+      "storage_text": "Store in an airtight container in a cool, dry place.",
+      "shelf_life_text": "Best used within 15 days of making.",
+      "preparation_text": null,
+      "price_note": "Product-only price per pack. Delivery charges, if any, are extra and confirmed on WhatsApp.",
+      "featured": true,
+      "variants": [
+        {
+          "id": "87e876dd-5933-4287-b97c-9f58fbfb958b",
+          "label": "250 g",
+          "price_paise": 22000
+        },
+        {
+          "id": "6ee15cd9-83ae-4d4a-becf-0d5eaa578c6b",
+          "label": "500 g",
+          "price_paise": 42000
+        }
+      ],
+      "images": [],
+      "updated_at": "2026-10-11T14:14:32.552050Z"
+    },
+    {
+      "id": "79ba9fea-e22b-4cb8-8462-c0e0fd0ddda7",
+      "slug": "ariselu",
+      "name": "Ariselu",
+      "short_description": "Festival rice-flour and jaggery sweet with sesame.",
+      "description": "Soaked rice flour and jaggery dough, pressed by hand, coated with sesame and fried.",
+      "category_slug": "sweets",
+      "category_name": "Sweets",
+      "ingredients_text": "Rice flour, jaggery, sesame seeds, ghee, oil.",
+      "allergen_text": "Contains sesame and milk (ghee).",
+      "storage_text": "Store in an airtight container in a cool, dry place.",
+      "shelf_life_text": "Best used within 10 days of making.",
+      "preparation_text": null,
+      "price_note": "Product-only price per pack. Delivery charges, if any, are extra and confirmed on WhatsApp.",
+      "featured": false,
+      "variants": [
+        {
+          "id": "3c58a8ff-1601-41a2-a834-0613eff6f7d5",
+          "label": "10 pieces",
+          "price_paise": 25000
+        },
+        {
+          "id": "58d91564-54b5-48f7-b9d6-4f98996cc1fa",
+          "label": "20 pieces",
+          "price_paise": 48000
+        }
+      ],
+      "images": [],
+      "updated_at": "2026-10-11T14:14:32.552864Z"
+    },
+    {
+      "id": "77f7dec2-4713-4d04-a126-7669fd0bae28",
+      "slug": "kobbari-laddu",
+      "name": "Kobbari Laddu",
+      "short_description": "Fresh coconut and jaggery laddus.",
+      "description": "Grated coconut cooked with jaggery and cardamom, rolled by hand.",
+      "category_slug": "sweets",
+      "category_name": "Sweets",
+      "ingredients_text": "Coconut, jaggery, cardamom, ghee.",
+      "allergen_text": "Contains milk (ghee).",
+      "storage_text": "Store in an airtight container. Refrigerate in hot weather.",
+      "shelf_life_text": "Best used within 7 days of making.",
+      "preparation_text": null,
+      "price_note": "Product-only price per pack. Delivery charges, if any, are extra and confirmed on WhatsApp.",
+      "featured": false,
+      "variants": [
+        {
+          "id": "aab6546a-89f8-42e7-93f6-b513d91b9d46",
+          "label": "250 g",
+          "price_paise": 18000
+        }
+      ],
+      "images": [],
+      "updated_at": "2026-10-11T14:14:32.553656Z"
+    },
+    {
+      "id": "608f587f-d79a-4142-a557-d6eb01c42ba5",
+      "slug": "kandi-podi",
+      "name": "Kandi Podi",
+      "short_description": "Roasted lentil spice powder to mix with rice and ghee.",
+      "description": "Toor dal, chana dal and red chillies dry-roasted and coarsely ground.",
+      "category_slug": "podis-snacks",
+      "category_name": "Podis & Snacks",
+      "ingredients_text": "Toor dal, chana dal, red chilli, cumin, garlic, salt.",
+      "allergen_text": "Prepared in a kitchen that also handles sesame and groundnut.",
+      "storage_text": "Store in an airtight container in a cool, dry place.",
+      "shelf_life_text": "Best used within 3 months of packing.",
+      "preparation_text": null,
+      "price_note": "Product-only price per pack. Delivery charges, if any, are extra and confirmed on WhatsApp.",
+      "featured": false,
+      "variants": [
+        {
+          "id": "8819dfc0-37b0-4e23-95fc-f8e7e13f61c7",
+          "label": "200 g",
+          "price_paise": 12000
+        },
+        {
+          "id": "bd3f8dbd-b682-43c2-b01d-427ef5896d52",
+          "label": "400 g",
+          "price_paise": 22000
+        }
+      ],
+      "images": [],
+      "updated_at": "2026-10-11T14:14:32.554428Z"
+    },
+    {
+      "id": "a363a847-5541-47f1-a74e-42031efb6109",
+      "slug": "chekkalu",
+      "name": "Chekkalu",
+      "short_description": "Crisp rice-flour crackers with chana dal and curry leaves.",
+      "description": "Rice flour mixed with soaked chana dal, green chilli and curry leaves, pressed thin and fried.",
+      "category_slug": "podis-snacks",
+      "category_name": "Podis & Snacks",
+      "ingredients_text": "Rice flour, chana dal, green chilli, curry leaves, sesame seeds, salt, oil.",
+      "allergen_text": "Contains sesame.",
+      "storage_text": "Store in an airtight container.",
+      "shelf_life_text": "Best used within 3 weeks of making.",
+      "preparation_text": null,
+      "price_note": "Product-only price per pack. Delivery charges, if any, are extra and confirmed on WhatsApp.",
+      "featured": false,
+      "variants": [
+        {
+          "id": "7b2ca661-6907-42e2-bc9e-75bd2ff33172",
+          "label": "250 g",
+          "price_paise": 15000
+        }
+      ],
+      "images": [],
+      "updated_at": "2026-10-11T14:14:32.555301Z"
+    }
+  ],
+  "videos": [],
+  "banners": [
+    {
+      "id": "b4799fb1-1358-40da-9952-485943a3e4d8",
+      "title": "Festival orders now open",
+      "subtitle": "Add sweets and pickles to your list and place an order request. We confirm everything on WhatsApp.",
+      "image_url": null,
+      "link_url": "/products/",
+      "link_label": "Browse products"
+    }
+  ],
+  "gallery": []
+}

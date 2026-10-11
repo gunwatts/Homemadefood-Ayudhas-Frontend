@@ -1,0 +1,79 @@
+# Builds the static export and publishes it to GitHub Pages.
+#
+# One-time setup:
+#   Settings → Pages → Source = "GitHub Actions"
+#   Settings → Secrets and variables → Actions → Variables:
+#     API_BASE_URL  (required) public backend URL, e.g. https://<user>.pythonanywhere.com
+#     PAGES_CNAME   (optional) custom domain, e.g. food.ayudhas.com — leave unset to use
+#                   https://<owner>.github.io/<repo>/
+# These values are public (they end up in the website); never put secrets here.
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+  schedule:
+    # Daily rebuild so products added in the admin get their own pre-rendered page (03:30 IST).
+    - cron: "0 22 * * *"
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+          cache: npm
+      - name: Require the API URL variable
+        run: test -n "${{ vars.API_BASE_URL }}" || (echo "Set the API_BASE_URL repository variable" && exit 1)
+      - name: Work out site URL and base path
+        id: site
+        run: |
+          if [ -n "${{ vars.PAGES_CNAME }}" ]; then
+            echo "url=https://${{ vars.PAGES_CNAME }}" >> "$GITHUB_OUTPUT"
+            echo "base_path=" >> "$GITHUB_OUTPUT"
+          else
+            echo "url=https://${{ github.repository_owner }}.github.io" >> "$GITHUB_OUTPUT"
+            echo "base_path=/${{ github.event.repository.name }}" >> "$GITHUB_OUTPUT"
+          fi
+      - run: npm ci
+      - run: npm run typecheck
+      - run: npm run lint
+      - run: npm test
+      # Pulls the live catalogue for pre-rendering; falls back to the committed snapshot if the API is unreachable.
+      - run: npm run build
+        env:
+          NEXT_PUBLIC_API_BASE_URL: ${{ vars.API_BASE_URL }}
+          NEXT_PUBLIC_SITE_URL: ${{ steps.site.outputs.url }}
+          NEXT_PUBLIC_BASE_PATH: ${{ steps.site.outputs.base_path }}
+          NEXT_TELEMETRY_DISABLED: "1"
+      - name: Refuse to publish a bundle that still points at localhost
+        run: "! grep -rl 'localhost:8000' out/_next"
+      - name: Custom domain file
+        if: ${{ vars.PAGES_CNAME != '' }}
+        run: echo "${{ vars.PAGES_CNAME }}" > out/CNAME
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: out
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

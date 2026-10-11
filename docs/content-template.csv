@@ -1,0 +1,3 @@
+category,product_name,short_description (one line),full_description,pack_size,product_only_price_inr,ingredients,allergens,storage,shelf_life,how_its_made (optional),photo_file_names,owner_approved (yes/no)
+Pickles,Example: Avakaya Mango Pickle,Cut-mango pickle with mustard and red chilli,Describe the product in your own words.,500 g,330,"Raw mango, red chilli powder, mustard powder, salt, gingelly oil",Contains mustard and sesame,"Cool, dry place. Use a dry spoon.",Best within 6 months of packing,,avakaya-1.jpg; avakaya-2.jpg,no
+Pickles,Example: Avakaya Mango Pickle,(same product - one row per pack size),,1 kg,620,,,,,,,no

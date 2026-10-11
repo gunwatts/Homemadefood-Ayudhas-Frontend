@@ -1,0 +1,29 @@
+# Checks for pull requests (pushes to main are checked by the deploy workflow).
+name: CI
+on:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: npm run typecheck
+      - run: npm run lint
+      - run: npm test
+      # Offline build from the committed catalogue snapshot.
+      - run: npm run build:offline
+        env:
+          NEXT_PUBLIC_API_BASE_URL: https://api.example.invalid
+          NEXT_TELEMETRY_DISABLED: "1"
+      - name: No payment or checkout functionality
+        run: |
+          if grep -RniE "razorpay|stripe|paytm|payu|cashfree|phonepe|checkout\.js|card number|upi pin" src; then
+            echo "Payment-related code found - this site must not take payments (see requirements)."; exit 1
+          fi
